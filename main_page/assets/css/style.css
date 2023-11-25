@@ -10,7 +10,14 @@ html {
 }
 
 .header {
-
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed !important; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 182px;
 }
 
 .header-bar {
@@ -134,7 +141,17 @@ html {
 }
 
 .slider {
+    margin-top: 182px;
+}
 
+.carousel-item {
+    height: 532px;
+    overflow-y: hidden;
+}
+
+.carousel-image {
+
+    width: 100%;
 }
 
 .content {
