@@ -1,0 +1,149 @@
+.login-container{
+    .container-fluid{
+        width: 1448px;
+        box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.125);
+        .contact{
+            flex-direction: column; 
+            justify-content: center;
+            flex-shrink: 0;
+            color: #000;
+            font-family: Oswald;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .search-bar{
+            width: 645px;
+            height: 55px;
+            flex-shrink: 0;
+            border-style: none;
+            border-radius: 25px;
+            background: #E3E3E3;
+            color: #747474;
+            font-family: Oswald;
+            padding-left: 30px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+        .search-icon{
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 11px 24px 10px 0;
+        }
+        .icon{
+            margin-top: 6px;
+            margin-right:18px;
+        }
+        .total-cart{
+            color: #000;
+            font-family: Oswald;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .second-nav a{
+            text-decoration: none;
+            flex-direction: column;
+            justify-content: center;
+            color: #E7596D;
+            text-align: center;
+            font-family: Oswald;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 24px 42px 12px 10px;
+
+            &:hover{
+                color: #DFA3AB;
+            }
+        }
+        .blog{
+            color: #000;
+            text-align: center;
+            font-family: Oswald;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .line{
+            border: 3px solid #E7596D;
+            width: 138px;
+            margin-left: 645px;
+        }
+        .card h5{
+            color: #000;
+            text-align: center;
+            font-family: Oswald;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card{
+            justify-content: end;
+            border-radius: 30px;
+        }
+        .card p{
+            color: #000;
+            text-align: center;
+            font-family: Oswald;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-img-top{
+            width: 100%;
+            height: 283px;
+            padding-top: 10px;
+        }
+        .footer h3{
+            margin-top: 21px;
+            color: #000;
+            text-transform: uppercase;
+            font-family: Oswald;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .footer a{
+            display: block;
+            text-decoration: none;
+            color: #000;
+            font-family: Oswald;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .footer p{
+            color: #000;
+            font-family: Oswald;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-bottom: 15px;
+        }
+    }
+}
