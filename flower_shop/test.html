@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Test</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styletest.css">
 </head>
 <body>
     <div class="root">
@@ -22,8 +22,8 @@
                         </div>
                         <div class="col-10" style="margin-top: 36px;">
                             <div class="row">
-                                <div class="col d-flex" style="margin-top: 6px; margin-right: 60px;">
-                                    <div class="phone-icon"><img src="/flower_shop/img/Phone.png" alt=""></div>
+                                <div class="col d-flex" style=" margin-right: 60px;">
+                                    <div class="phone-icon" style="margin-top: 6px;"><img src="/flower_shop/img/Phone.png" alt=""></div>
                                     <div class="contact">
                                         <div>HOTLINE</div>
                                         <div>0123-456-789</div>
@@ -54,15 +54,62 @@
                             <div class="row">
                                 <div class="col-11 d-flex">
                                     <div class="second-nav" style="display: flex;">
+                                        <div class="header-nav">
                                             <a href="" class="header-nav">Trang chủ</a>
-                                            <a href="" class="header-nav">Chủ đề</a>
-                                            <a href="" class="header-nav">Kiểu dáng</a>
-                                            <a href="" class="header-nav">Màu sắc</a>
-                                            <a href="" class="header-nav">Loại hoa</a>
-                                            <a href="" class="header-nav">Dịch vụ</a>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="btn" href="#" data-bs-toggle="dropdown">Chủ đề</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Hoa sinh nhật</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa khai trương</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa chia buồn</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa tình yêu</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kiểu dáng</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Bó hoa tươi</a></li>
+                                            <li><a class="dropdown-item" href="#">Giỏ hoa tươi</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="btn " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Màu sắc</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Màu trắng</a></li>
+                                            <li><a class="dropdown-item" href="#">Màu đỏ</a></li>
+                                            <li><a class="dropdown-item" href="#">Màu hồng</a></li>
+                                            <li><a class="dropdown-item" href="#">Màu xanh dương</a></li>
+                                            <li><a class="dropdown-item" href="#">Kết hợp màu</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="btn " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Loại hoa</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Hoa hồng</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa baby</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa hướng dương</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa lan hồ điệp</a></li>
+                                            <li><a class="dropdown-item" href="#">Hoa tulip</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="btn " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dịch vụ</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Tự thiết kế</a></li>
+                                            <li><a class="dropdown-item" href="#">Quà tặng kèm</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="header-nav">
                                             <a href="" class="header-nav">Đánh giá</a>
+                                        </div>
+                                        <div class="header-nav">
                                             <a href="" class="header-nav">Blog</a>
+                                        </div>
+                                        <div class="header-nav">
                                             <a href="" class="header-nav">Liên hệ</a>
+                                        </div>
                                     </div>     
                                 </div>
                             </div>
@@ -74,35 +121,49 @@
                     <div class="row">
                         <div class="col" style="margin-left: 155px;">
                             <div class="text">
-                                <h1>Đăng nhập</h1>
-                                <p>Nếu bạn chưa có tài khoản, vui lòng đăng ký tại <a href="/Register/register.html">đây</a>.</p>
+                                <h1>Quên mật khẩu?</h1>
+                                <p>Có cái mật khẩu mà cũng quên, chúng tôi rất nể bạn!!!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-3 text-end">
-                            <p class="form-login">Email</p>
+                            <p class="form-forget">Email</p>
                         </div>
                         <div class="col">
-                            <input type="email" class="input-login" placeholder="Email">
+                            <input type="email" class="input-forget" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <input type="button" class="btn-valid" value="Gửi mã xác nhận">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-3 text-end">
-                            <p class="form-login">Mật khẩu</p>
+                            <p class="form-forget">Mã xác nhận</p>
                         </div>
                         <div class="col">
-                            <input type="password" class="input-login" placeholder="Mật khẩu">
+                            <input type="email" class="input-forget" placeholder="Mã xác nhận">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col" style="margin-left: 340px;">
-                            <a href="/ForgetPassword/ForgetPassword.html" class="forget-password" style="margin-left: 20px;">Quên mật khẩu?</a>
+                        <div class="col-3 text-end">
+                            <p class="form-forget">Mật khẩu</p>
+                        </div>
+                        <div class="col">
+                            <input type="password" class="input-forget" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 text-end">
+                            <p class="form-forget">Nhập lại mật khẩu mới</p>
+                        </div>
+                        <div class="col">
+                            <input type="password" class="input-forget" placeholder="Nhập lại mật khẩu mới">
                         </div>
                     </div>
                     <div class="row text-center" >
                         <div class="col" style="margin-bottom:39px;">
-                            <input type="submit" value="ĐĂNG NHẬP" class="btn-login">
+                            <input type="submit" value="XÁC NHẬN" class="btn-confirm">
                         </div>
                     </div>
                 </div>
@@ -148,7 +209,9 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div class="row">
+            <div class="col-12"><img src="/flower_shop/img/footer-backround.png" alt="" style="width: 100%;"></div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha383-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
